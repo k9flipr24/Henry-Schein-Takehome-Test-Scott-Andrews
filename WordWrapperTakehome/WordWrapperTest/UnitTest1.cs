@@ -15,23 +15,23 @@ namespace WordWrapperTest
         [TestMethod]
         public void SmallStringSmallColumnLength()
         {
-            Assert.AreEqual(WordWrapperTakehome.WordWrapper.wrap(shortString, shortColumn), "This\nis\na\ntest");
+            Assert.AreEqual("This\nis\na\ntest", WordWrapperTakehome.WordWrapper.wrap(shortString, shortColumn));
         }
 
         [TestMethod]
         public void LargeStringSmallColumnLength()
         {
-            Assert.AreEqual(WordWrapperTakehome.WordWrapper.wrap(longString, 3), "Lorem\nipsum\ndolor\nsit\namet,\nconsectetur\nadipiscing\nelit.\nEtiam\nmolestie\nest\neget\nnunc\nvulputate\ngravida.\nMauris\neu\nurna\nnisi.\nSuspendisse\npotenti."); //Find and replace made this string easy to generate
+            Assert.AreEqual("Lorem\nipsum\ndolor\nsit\namet,\nconsectetur\nadipiscing\nelit.\nEtiam\nmolestie\nest\neget\nnunc\nvulputate\ngravida.\nMauris\neu\nurna\nnisi.\nSuspendisse\npotenti.", WordWrapperTakehome.WordWrapper.wrap(longString, 3)); //Find and replace made this string easy to generate
         }
         [TestMethod]
         public void SmallStringLongColumnLength()
         {
-            Assert.AreEqual(WordWrapperTakehome.WordWrapper.wrap(shortString, longColumn), "This is a test");
+            Assert.AreEqual("This is a test", WordWrapperTakehome.WordWrapper.wrap(shortString, longColumn));
         }
 
         public void LongStringLongColumnLength()
         {
-            Assert.AreEqual(WordWrapperTakehome.WordWrapper.wrap(shortString, longColumn), "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nEtiam molestie est eget nunc\nvulputate gravida. Mauris eu\nurna nisi. Suspendisse\npotenti.");
+            Assert.AreEqual("Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nEtiam molestie est eget nunc\nvulputate gravida. Mauris eu\nurna nisi. Suspendisse\npotenti.", WordWrapperTakehome.WordWrapper.wrap(shortString, longColumn));
         }
 
         [TestMethod]
@@ -48,7 +48,7 @@ namespace WordWrapperTest
             }
             try
             {
-                WordWrapperTakehome.WordWrapper.wrap(shortString, zero);
+                WordWrapperTakehome.WordWrapper.wrap(string.Empty, longColumn);
                 Assert.Fail("Exception expected but not seen");
             }
             catch (Exception e)
