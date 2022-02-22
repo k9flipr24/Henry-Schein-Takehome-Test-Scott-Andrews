@@ -1,0 +1,15 @@
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\bin\Release\net5.0\WordWrapperTakehome.exe
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\bin\Release\net5.0\WordWrapperTakehome.deps.json
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\bin\Release\net5.0\WordWrapperTakehome.runtimeconfig.json
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\bin\Release\net5.0\WordWrapperTakehome.runtimeconfig.dev.json
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\bin\Release\net5.0\WordWrapperTakehome.dll
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\bin\Release\net5.0\ref\WordWrapperTakehome.dll
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\bin\Release\net5.0\WordWrapperTakehome.pdb
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.dll
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\ref\WordWrapperTakehome.dll
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.pdb
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.genruntimeconfig.cache

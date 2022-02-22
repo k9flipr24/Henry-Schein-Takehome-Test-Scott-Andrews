@@ -12,6 +12,7 @@ namespace WordWrapperTest
         const int shortColumn = 3;
         const int longColumn = 30;
         const int zero = 0;
+        const int edgeColumn = 7;
         [TestMethod]
         public void SmallStringSmallColumnLength()
         {
@@ -23,15 +24,23 @@ namespace WordWrapperTest
         {
             Assert.AreEqual("Lorem\nipsum\ndolor\nsit\namet,\nconsectetur\nadipiscing\nelit.\nEtiam\nmolestie\nest\neget\nnunc\nvulputate\ngravida.\nMauris\neu\nurna\nnisi.\nSuspendisse\npotenti.", WordWrapperTakehome.WordWrapper.wrap(longString, 3)); //Find and replace made this string easy to generate
         }
+
+        [TestMethod]
+        public void EdgeCase()
+        {
+            Assert.AreEqual("This is\na test", WordWrapperTakehome.WordWrapper.wrap(shortString, edgeColumn));
+        }
+
         [TestMethod]
         public void SmallStringLongColumnLength()
         {
             Assert.AreEqual("This is a test", WordWrapperTakehome.WordWrapper.wrap(shortString, longColumn));
         }
 
+        [TestMethod]
         public void LongStringLongColumnLength()
         {
-            Assert.AreEqual("Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nEtiam molestie est eget nunc\nvulputate gravida. Mauris eu\nurna nisi. Suspendisse\npotenti.", WordWrapperTakehome.WordWrapper.wrap(shortString, longColumn));
+            Assert.AreEqual("Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nEtiam molestie est eget nunc\nvulputate gravida. Mauris eu\nurna nisi. Suspendisse\npotenti.", WordWrapperTakehome.WordWrapper.wrap(longString, longColumn));
         }
 
         [TestMethod]

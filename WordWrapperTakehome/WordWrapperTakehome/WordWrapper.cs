@@ -48,8 +48,8 @@ namespace WordWrapperTakehome
                     else
                     {
                         wholeLine += currentLine.Trim() + '\n';
-                        currentLine = "";
-                        currentLineLength = 0;
+                        currentLine = word + " ";
+                        currentLineLength = currentLine.Length;
                     }
                 }
             }
