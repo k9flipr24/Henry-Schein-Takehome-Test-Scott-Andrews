@@ -4,6 +4,9 @@ namespace WordWrapperTakehome
 {
     class Program
     {
+        /*
+         * This main is the driver for the program. It lets you enter sentences, and then column count, and displays the output. If user gives a 0 for sentence, then it quits the program
+         */
         static void Main(string[] args)
         {
             String inputString = "";

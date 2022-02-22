@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace WordWrapperTakehome
 {
+    /// <summary>
+    /// This is the class that implements the word wrapper. It only contains the static method wrap.
+    /// </summary>
     public class WordWrapper
     {
+        /// <summary>
+        /// This static method prints and returns the text parameter, wrapped to a column width of the maxLineLEngth parameter
+        /// </summary>
+        /// <param name="text"> The text to be wrapped</param>
+        /// <param name="maxLineLength">The width of the column desired</param>
+        /// <returns>the text string with end line characters inserted to apply the wrap</returns>
+        
         public static String wrap(String text, int maxLineLength)
         {
             int currentLineLength = 0;
