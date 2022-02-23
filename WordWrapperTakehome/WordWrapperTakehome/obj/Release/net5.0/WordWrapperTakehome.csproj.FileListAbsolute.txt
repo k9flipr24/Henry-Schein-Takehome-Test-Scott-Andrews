@@ -13,3 +13,4 @@ C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordW
 C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\ref\WordWrapperTakehome.dll
 C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.pdb
 C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.genruntimeconfig.cache
+C:\Users\scott\OneDrive\Documents\Henry-Schein-Takehome-Test-Scott-Andrews\WordWrapperTakehome\WordWrapperTakehome\obj\Release\net5.0\WordWrapperTakehome.csproj.AssemblyReference.cache
